@@ -1,11 +1,11 @@
-Source: nextcloud19			
+Source: nextcloud21			
 Section: devel
 Priority: optional
 Maintainer: Equipo LliureX <lliurex@gva.es> 
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
-Package: nextcloud21
+Package: nextcloud
 Architecture: amd64
 Depends: ${shlibs:Depends},${misc:Depends},apache2,libapache2-mod-php,bzip2,php7.4-gd, php7.4-json,php7.4-mysql,php7.4-curl,php7.4-mbstring,php7.4-intl,php7.4-xml,php7.4-zip
 Description: nextCloud - Server
